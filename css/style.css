@@ -1,0 +1,174 @@
+﻿body{
+    padding:0;
+    margin:0;
+}
+
+#todo {
+    margin:auto;
+    background-color:white;
+    width:100%;
+    height:100%;
+    position:absolute;
+    
+}
+
+#top-left{
+    float:left;
+    width:24%;
+    height:40%;
+    background-color:rgb(58, 204, 58);
+    margin-bottom: 3px;
+    border-right: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-right {
+    float: right;
+    width: 75%;
+    height: 40%;
+    background-color: red;
+    margin-bottom: 3px;
+    border-left: 3px solid black;
+}
+
+#bot-left{
+    float: left;
+    width: 24%;
+    height: 56%;
+    background-color: rgb(88, 247, 88);
+    border-right: 3px solid black;
+}
+
+#bot-right {
+    float: right;
+    width: 75%;
+    height: 56%;
+    background-color: white;
+    border-left: 3px solid black;
+    margin-bottom: 5px;
+}
+#top-top-right {
+    width: 100%;
+    height: 80%;
+    background-color: aqua;
+}
+
+#bot-bot-right {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+#footer {   
+    float: left;
+    width: 100%;
+    height: 3%;
+    background-color: rgb(0, 0, 0);
+}
+
+#cabecera {
+    width: 100%;
+    height: 100%;
+}
+#img-cabecera {
+    width: 100%;
+    height: 100%;
+}
+.imagen-port:hover .top-right-top{
+    transform: scale(1);
+}
+
+
+.nav_barra {
+    width: 230px;
+    height: 100%;
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav_barra:hover{
+    background-color:white;
+    color:black;
+}
+#idlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#linea {
+    border-top: 1px solid black;
+    width: 95%;
+    height: 2px;
+    padding: 0;
+    margin: 10px;
+  }
+li{
+    margin-left: 20px; 
+    margin-bottom: 10px;
+    margin-right: 20px;
+    text-align: justify;
+}
+#bot-right-left{
+    float: left;
+    width: 65%;
+    height: 100%;
+    margin-left: 20px;
+    text-align: justify;
+}
+#bot-right-right{
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+#caja1{
+    margin-top: 50px;
+    width: 90%;
+    height: 100px;
+    background-color: grey;
+}
+#caja2{
+    margin-top: 40px;
+    width: 90%;
+    height: 100px;
+    background-color: grey;
+}
+#caja3{
+    margin-top: 40px;
+    width: 90%;
+    height: 100px;
+    background-color: grey;
+}
+#caja-caja-1{
+    margin-left: 20px;
+}
+#footer{
+    position: relative;
+}
+#f-left{
+    width: 50%;
+    height: 100%;
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    top: 50%;
+    margin: -25px 0 0 0px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+    float: left;
+    color: white;
+    
+}
+#f-right{
+    color: white;
+    height: 100%;
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    margin: -25px 0 0 0; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+}
+#logo{
+    width: 100%;
+    height: 100%;
+}
